@@ -294,13 +294,22 @@ h1, h2, h3 {
     background: #000;
 }
 
-.video-container iframe {
+.video-container iframe,
+.video-container video {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border: none;
+    object-fit: cover;
+}
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 /* Contact Specific Setup */
