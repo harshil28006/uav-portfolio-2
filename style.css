@@ -146,6 +146,26 @@ h1, h2, h3 {
     box-shadow: 0 8px 25px rgba(14, 165, 233, 0.5);
 }
 
+.secondary-btn {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(5px);
+}
+
+.secondary-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px) scale(1.02);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 /* Main Container Layout */
 .container {
     max-width: 1000px;
@@ -327,6 +347,8 @@ h1, h2, h3 {
 .contact-info {
     display: flex;
     justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .contact-item {
