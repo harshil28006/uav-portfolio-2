@@ -424,6 +424,7 @@ footer {
 .stagger-2 { opacity: 0; animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards 0.5s; }
 .stagger-3 { opacity: 0; animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards 0.6s; }
 .stagger-4 { opacity: 0; animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards 0.7s; }
+.stagger-5 { opacity: 0; animation: fadeInUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards 0.8s; }
 
 /* Responsive Adjustments */
 @media (max-width: 850px) {
