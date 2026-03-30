@@ -48,24 +48,31 @@
                 <div class="text-content">
                     <ul class="feature-list">
                         <li>
-                            <div class="feature-icon">📐</div>
+                            <div class="feature-icon">✈️</div>
                             <div class="feature-details">
-                                <h3>6 DOF Model</h3>
-                                <p>Comprehensive six degrees of freedom mathematical modeling for real-world physics accuracy.</p>
+                                <h3>6 DOF Dynamic Model</h3>
+                                <p>Full nonlinear rigid-body dynamics simulation including translational and rotational motion. Incorporates inertia tensor (Ix, Iy, Iz) and real-time state propagation.</p>
                             </div>
                         </li>
                         <li>
                             <div class="feature-icon">🌪️</div>
                             <div class="feature-details">
-                                <h3>Flight Dynamics</h3>
-                                <p>Advanced simulation setup tracking aerodynamic variables during aggressive maneuvers.</p>
+                                <h3>Flight Dynamics & Disturbances</h3>
+                                <p>Simulates aerodynamic effects with external disturbances like wind forces and environmental noise. Includes realistic acceleration modeling using thrust-vector decomposition.</p>
                             </div>
                         </li>
                         <li>
-                            <div class="feature-icon">🎛️</div>
+                            <div class="feature-icon">🎯</div>
                             <div class="feature-details">
-                                <h3>Control Design</h3>
-                                <p>Implementation of responsive PID controllers ensuring stable autonomous flight regimes.</p>
+                                <h3>Autonomous Control System</h3>
+                                <p>Cascaded PID controller for position and attitude stabilization. Implements waypoint navigation with dynamic trajectory correction.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="feature-icon">⚙️</div>
+                            <div class="feature-details">
+                                <h3>Motor & Power System</h3>
+                                <p>Models ESC delay (τ = 0.03s) and motor thrust generation (T = kf·ω²). Includes battery voltage drop affecting maximum rotor speed.</p>
                             </div>
                         </li>
                     </ul>
